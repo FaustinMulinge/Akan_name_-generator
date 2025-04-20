@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>Akan Name Generator</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js" defer></script>
+    </HEAD>
+    <body id="bd" class="body">
+        <div>
+            <p id="p1" class="par">This website enables users to calculate the day of the week they were born, and <br>assigns
+            them an <strong>Akan name </strong> based on their gender. The <strong>Akan</strong> names come from <strong>Ghanaian</strong> cuture.</p>
+            <form id="fm" class="form">
+                <label for="birthdate" class="form-label">Birth date</label>
+                <input class="form-input" type="date" id="birthdate" name="birthdate">
+            
+                <label for="gender"  class="form-label">Gender</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" value="male" name="gender">
+                    <label class="form-label" for="male">Male</label>
+
+                    <input type="radio" id="female"  value="female" name="gender">
+                    <label class="form-label" for="female">Female</label>
+                </div>
+                <button class="form-button" type="submit">Get Akan name</button>
+            </form>
+
+            <section id="akan-name-display" class="akan-name-display">
+                <p id="akan-name">Your Akan name will display here</p>
+            </section>
+        </div>
+    </body>
+</HTML>
